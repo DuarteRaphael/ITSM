@@ -5,6 +5,16 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSM.Services.Api", "ITSM.Services.Api\ITSM.Services.Api.csproj", "{FBEF1D2A-2DF1-42A4-8ABB-EC67F01F59A8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{3D945402-4E71-4970-8BF6-01B365BA293B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{2D76833D-8D6F-4050-944B-3D2D40290297}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{FF3FFD5D-A5C0-4B9A-9154-269DB4C754EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - InfraStructure", "4 - InfraStructure", "{B7CCD58B-1BCE-400A-B0A7-E3A17CD8702A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITSM.Domain.Core", "ITSM.Domain.Core\ITSM.Domain.Core.csproj", "{0463D66A-AC4B-4F5E-8D0B-39651096592A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +25,17 @@ Global
 		{FBEF1D2A-2DF1-42A4-8ABB-EC67F01F59A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBEF1D2A-2DF1-42A4-8ABB-EC67F01F59A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBEF1D2A-2DF1-42A4-8ABB-EC67F01F59A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0463D66A-AC4B-4F5E-8D0B-39651096592A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0463D66A-AC4B-4F5E-8D0B-39651096592A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0463D66A-AC4B-4F5E-8D0B-39651096592A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0463D66A-AC4B-4F5E-8D0B-39651096592A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBEF1D2A-2DF1-42A4-8ABB-EC67F01F59A8} = {3D945402-4E71-4970-8BF6-01B365BA293B}
+		{0463D66A-AC4B-4F5E-8D0B-39651096592A} = {FF3FFD5D-A5C0-4B9A-9154-269DB4C754EA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF7392D1-7B9E-4639-83E7-FAED5A209FAA}
