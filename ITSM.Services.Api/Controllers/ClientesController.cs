@@ -17,17 +17,17 @@ namespace ITSM.Services.Api.Controllers
         {
             return Ok();
         }
-        [HttpDelete("id")]
+        [HttpDelete("{id}")]
         public IActionResult Excluir(Guid id)
         {
             return Ok();
         }
-        [HttpGet("page/limit")]
+        [HttpGet("{page}/{limit}")]
         public IActionResult BuscarTodos(int page, int limit)
         {
             return Ok();
         }
-        [HttpGet("id")]
+        [HttpGet("{id}")]
         public IActionResult BuscarPorId(Guid id)
         {
             return Ok();
